@@ -1,1 +1,5 @@
-# whitening
+# Natural images, whitening, and sparse coding with local learning rules
+
+This repository contains code used in my work on learning sparse models of natural images with local learning rules when the images may not be "whitened" or "desphered." Much of the code here is duplicated from my DictLearner and SAILnet repositories. 
+
+To use this code, simply clone the repository `git clone https://github.com/emdodds/whitening` and work in its main directory. We provide example training scripts in the `Scripts` folder. The data directory will need to be updated in `trainscaled.py`; our preprocessed data is available upon request. `Notebooks/whiten natural images`shows how this data was generated from a curated subset of the [Van Hateren database](http://www.kyb.tuebingen.mpg.de/?id=227) of natural images. 
